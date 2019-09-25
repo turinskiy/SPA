@@ -21,17 +21,17 @@ spa.shell = (function () {
 		},
 		main_html : String()
 			+ '<div class="spa-shell-head">'
-				+ '<div class="spa-shell-head-logo"></div>'
-				+ '<div class="spa-shell-head-acct"></div>'
-				+ '<div class="spa-shell-head-search"></div>'
+				+ '<div class="spa-shell-head-logo">Logo</div>'
+				+ '<div class="spa-shell-head-acct">Acct</div>'
+				+ '<div class="spa-shell-head-search">Search</div>'
 			+ '</div>'
 			+ '<div class="spa-shell-main">'
-				+ '<div class="spa-shell-main-nav"></div>'
-				+ '<div class="spa-shell-main-content"></div>'
+				+ '<div class="spa-shell-main-nav">Main Nav</div>'
+				+ '<div class="spa-shell-main-content">Min Content</div>'
 			+ '</div>'
-			+ '<div class="spa-shell-foot"></div>'
+			+ '<div class="spa-shell-foot">Foot</div>'
 			+ '<div class="spa-shell-chat"></div>'
-			+ '<div class="spa-shell-modal"></div>',
+			+ '<div class="spa-shell-modal">Modal</div>',
 			chat_extend_time	: 250,
 			chat_retract_time	: 300,
 			chat_extend_height	: 450,
@@ -280,6 +280,7 @@ spa.shell = (function () {
 			.trigger('hashchange');
 	};
 	// End PUBLIC method /initModule/
+
 	return { initModule : initModule };
 	//------------------- END PUBLIC METHODS ---------------------
 }());
