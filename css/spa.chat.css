@@ -7,14 +7,6 @@
 .spa-shell-main-content, .spa-shell-foot, .spa-shell-modal {
     position : absolute;
 }
-.spa-shell-head-logo, .spa-shell-head-acct, .spa-shell-head-search,
-.spa-shell-main-nav, .spa-shell-main-content,
-.spa-shell-foot, .spa-shell-cha, .spa-shell-modal {
-    text-align: center;
-    vertical-align: middle;
-    padding: 10px 15px;
-    color: #616161;
-}
 .spa-shell-head {
     top : 0;
     left : 0;
