@@ -14,20 +14,6 @@
     height : 40px;
     background: #ccc;
 }
-.spa-shell-head-logo {
-    top : 4px;
-    left : 4px;
-    height : 32px;
-    width : 128px;
-    background : orange;
-}
-.spa-shell-head-acct {
-    top : 4px;
-    right : 0;
-    width : 64px;
-    height : 32px;
-    background : green;
-}
 .spa-shell-head-search {
     top : 4px;
     right : 64px;
@@ -47,17 +33,8 @@
     top : 0;
     bottom : 0;
 }
-.spa-shell-main-nav {
-    width : 250px;
-    background : #eee;
-}
 .spa-x-closed .spa-shell-main-nav {
     width : 0;
-}
-.spa-shell-main-content {
-    left : 250px;
-    right : 0;
-    background : #ddd;
 }
 .spa-x-closed .spa-shell-main-content {
     left : 0;
