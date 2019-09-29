@@ -7,13 +7,6 @@
 .spa-shell-main-content, .spa-shell-foot, .spa-shell-modal {
     position : absolute;
 }
-.spa-shell-head {
-    top : 0;
-    left : 0;
-    right : 0;
-    height : 40px;
-    background: #ccc;
-}
 .spa-shell-head-search {
     top : 4px;
     right : 64px;
