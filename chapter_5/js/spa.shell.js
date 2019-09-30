@@ -20,17 +20,14 @@ spa.shell = (function () {
             resize_interval: 200,
             main_html: String()
                 + '<div class="spa-shell-head">'
-                + '<div class="spa-shell-head-logo">'
-                    + '<h1>SPA</h1><p>javascript end to end</p>'
-                + '</div>'
-                + '<div class="spa-shell-head-acct"></div>'
-                // + '<div class="spa-shell-head-logo">Logo</div>'
-                // + '<div class="spa-shell-head-acct">Acct</div>'
-                // + '<div class="spa-shell-head-search">Search</div>'
+                    + '<div class="spa-shell-head-logo">'
+                        + '<h1>SPA</h1><p>javascript end to end</p>'
+                    + '</div>'
+                    + '<div class="spa-shell-head-acct"></div>'
                 + '</div>'
                 + '<div class="spa-shell-main">'
-                + '<div class="spa-shell-main-nav">Main Nav</div>'
-                + '<div class="spa-shell-main-content">Min Content</div>'
+                    + '<div class="spa-shell-main-nav">Main Nav</div>'
+                    + '<div class="spa-shell-main-content">Min Content</div>'
                 + '</div>'
                 + '<div class="spa-shell-foot">Foot</div>'
                 + '<div class="spa-shell-modal">Modal</div>'
@@ -91,11 +88,9 @@ spa.shell = (function () {
         // End merge changes into anchor map
         // Begin attempt to update URI; revert if not successful
         try {
-            console.log(anchor_map_revise);
             $.uriAnchor.setAnchor(anchor_map_revise);
         }
         catch (error) {
-            console.error(error);
             // replace URI with existing state
             $.uriAnchor.setAnchor(stateMap.anchor_map, null, true);
             bool_return = false;
@@ -162,7 +157,7 @@ spa.shell = (function () {
         // End revert anchor if slider change denied
         return false;
     };
-    
+
     onTapAcct = function (event) {
         var acct_text, user_name, user = spa.model.people.get_user();
         if (user.get_is_anon()) {
