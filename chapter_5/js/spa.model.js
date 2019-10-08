@@ -239,8 +239,7 @@ spa.model = (function () {
                 people_list = arg_list[0],
                 is_chatee_online = false;
             clearPeopleDb();
-            PERSON:
-            for (i = 0; i < people_list.length; i++) {
+            PERSON: for (i = 0; i < people_list.length; i++) {
                 person_map = people_list[i];
                 if (!person_map.name) { continue PERSON; }
                 // if user defined, update css_map and skip remainder
